@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week3</title>
+    <script type = "text/javascript">
+    var item1;
+    var item2;
+    var item3;
+    var item4;
+    var com;
+    var earnings;
+    var sum;
+    var total;
+    var item5;
+    var item6;
+    var item7;
+    var item8;
+
+    item1= window.prompt( "Enter first item value: ");
+    item2 = window.prompt( "Enter second item value: ");
+    item3 = window.prompt( "Enter third item value ");
+    item4 = window.prompt( "Enter fourth item value: ");
+    
+    item5 = parseInt(item1);
+    item6 = parseInt(item2);
+    item7 = parseInt(item3);
+    item8 = parseInt(item4);
+
+    sum = item5 + item6 + item7 + item8;
+    document.writeln( "<h1> Value of Items Sold: " + sum + "</h1>" )
+    com = sum * 0.09;
+    document.writeln( "<h1> Salesperson's Commission: " + com + "</h1>" )
+    total = com + 200;
+    document.writeln( "<h1> Salesperson's Total Earnings: " + total + "</h1>" )
+    </script>
+</head>
+<body>
+</body>
+</html>
